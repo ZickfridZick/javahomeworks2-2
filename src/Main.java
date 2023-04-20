@@ -11,7 +11,7 @@ public class Main {
         // Проверяем, превысила ли сумма пополнения порог в 1000 рублей
         if (replenishmentAmount > 1000) {
             // Если да, то рассчитываем количество бонусных рублей
-            bonusAmount = (replenishmentAmount / 100) - 10;
+            bonusAmount = (replenishmentAmount / 100);
             // Округляем количество бонусных рублей до целого числа
             bonusAmount = (int) Math.floor(bonusAmount);
         }
